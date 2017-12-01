@@ -1,5 +1,18 @@
 # Convulation basics
+Each neuron receives some inputs, performs a dot product and optionally follows it with a non-linearity. The whole network still expresses a single differentiable score function: from the raw image pixels on one end to class scores at the other.
 
+## Input image
+![capture](https://user-images.githubusercontent.com/23000971/33498854-ee1ad20c-d6f8-11e7-8745-615526769217.JPG)
+
+## Kernal Matrix used:-
+[[-1 -1 -1]
+ [-1  8 -1]
+ [-1 -1 -1]]
+ 
+ ## Output image
+ After applying matrix dot product with the image the resulted output image is 
+![capture2](https://user-images.githubusercontent.com/23000971/33498872-f9d51418-d6f8-11e7-8191-4ee8944c4a8e.JPG)
+ 
 
 # Convolutional autoencoders
 
